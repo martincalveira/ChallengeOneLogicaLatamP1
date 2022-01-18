@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Encriptador de texto</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<div class="titulo-header">
+			<h1 class="titulo">Encriptador de texto - Alura Oracle One</h1>
+		</div>
+	</header>
+	<main>
+		<section class ="container">
+			<section class="texto-ingreso">
+				<textarea id="texto-encriptar" placeholder="Ingrese el texto aqui." cols="40" rows="13"></textarea>
+				<p class="mensaje-uso">Solo letras minúsculas y sin acentos</p>
+				<div class="btn-encriptar">
+					<button id="btnEncriptar" class="button-encriptar">Encriptar</button>
+					<button id="btnDesencriptar" class="button">Desencriptar</button>
+				</div>
+			</section>
+			<section class="texto-procesado">
+				<textarea id="text-encriptado" cols="40" rows="13"></textarea>
+				<p class="mensaje-uso"></p>
+				<div class="btn-copiar">
+					<button id="btnCopiar" class="button">Copiar</button>
+				</div>
+			</section>
+		</section>
+	</main>
+	<script src="js/index.js"></script>
+	<footer class="footer">
+		Creado por Martín Calveira.   
+	</footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+	font-family: Inter, "Lucida Console", "Courier New", monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: #0A3871;
+ }
+
+.letra-encriptar {
+	position: absolute;
+	width: 688px;
+	height: 48px;
+	left: 40px;
+	top: 240px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 150%;
+	/* Dark blue/dark-blue-300 */
+	color: #0A3871;
+}
+
+.titulo {
+	font-size: 36px;
+	line-height: 150%;
+}
+
+.titulo-header { 
+	display:  flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.container {
+	display:  flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+    margin: auto;
+}
+
+.button-encriptar {
+  	color: white;
+	position: static;
+	width: 332px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+	/* Dark blue/dark-blue-300 */
+	background: #0A3871;
+	border-radius: 24px;
+	margin: 30px;
+}
+.button {
+	position: static;
+	width: 332px;
+	height: 67px;
+	left: 0px;
+	top: 0px;
+	/* Light gray */
+	background: #D8DFE8;
+	/* Dark blue/dark-blue-300 */
+	border: 1px solid #0A3871;
+	box-sizing: border-box;
+	border-radius: 24px;
+	margin: 30px;
+}
+
+.mensaje-uso {
+	text-align: center;
+    position: static;
+	width: 600px;
+	height: 24px;
+	left: 16px;
+	top: 0px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 150%;
+
+	/* identical to box height, or 18px */
+
+	/* Gray/gray-400 */
+	color: #495057;
+	opacity: 0.8;
+}
+
+.error {
+	background-color: lightcoral;
+}
+
+.footer {
+	text-align: center;
+	font-size: 16px;
+	margin: 48px;
+	padding: 24px;
+}
